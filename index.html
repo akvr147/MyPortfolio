@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <div>
+        <a href="#about"><button class="btn">About</button></a>
+        <a href="#skills"><button class="btn">Skills</button></a>
+        <a href="#projects"><button class="btn">Projects</button></a>
+        <a href="#contact"><button class="btn">Contact</button></a>
+        </div>        
+    </header>
+    <main>
+        <section id="about">
+            <h1>Avula Kasi Venkateswara Redy</h1>
+            <img src="laptop.jpg" alt="Laptop with Code">
+            <p>I am a Passionate Web Developer with a focus on Front-end Technologies.</p>
+            <p>I am Currently Pursuing my B.Tech in Narasaraopeta Engineering College, Narasaraopeta.</p>
+            <p>I have learnt Web Development from Code With Swaroop.</p>
+            <p>You can <a href="">Click here</a> to Checkout What I have learnt in HTML CSS JS.</p>
+        </section>
+        <section id="skills">
+            <h1>My Skills</h1>
+            <ol>
+                <li>Python Basics</li>
+                <li>HTML Basics</li>
+                <li>CSS Basics</li>
+                <li>JavaScript Basics</li>
+            </ol>
+        </section>
+        <section id="projects">
+            <h1>My Projects</h1>
+            <table>
+                <tr>
+                    <th>Project</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Portfolio Website</td>
+                    <td>I have built a Portfolio website by using HTML, CSS & JavaScript</td>
+                </tr>
+                <tr>
+                    <td>Python Simple Calculator</td>
+                    <td>I have build a simple calculator in the course by Code with Swaroop</td>
+                </tr>
+            </table>
+        </section>
+        <section id="contact">
+            <h1>Contact Me</h1>
+            <p>Feel free to get in touch with me using the form below</p>
+            <form action="">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <strong>Choose your Gender</strong>
+                    <input type="radio" name="radio" id="radio">
+                    <label for="radio">Male</label>
+                    <input type="radio" name="radio" id="radio">
+                    <label for="radio">Female</label>
+                </div>
+                <div>
+                    <strong>Select your interests</strong>
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox">Coding</label>
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox">Reading</label>
+                </div>
+                <div>
+                    <label for="bio">Bio (up to 200 Characters)</label>
+                    <input type="text" name="bio" id="bio">
+                </div>
+            </form>
+            <button type="submit" class="submit btn">Submit</button>
+        </section>
+    </main>
+    <a href="#"><button class="submit btn top">UP</button></a>
+    <footer>
+        <p>© 2024 My Portfolio</p>
+    </footer>
+</body>
+</html>
